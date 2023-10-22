@@ -1,4 +1,7 @@
-title: DGamboa Notes
-description: A simple collection of notes
+title: [DGamboa Notes]
+description: [A simple collection of notes]
 show_downloads: false
-theme: jekyll-theme-cayman
+
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
