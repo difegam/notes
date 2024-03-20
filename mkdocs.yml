@@ -6,9 +6,9 @@ copyright: |
   &copy; 2024 <a href="https://github.com/difegam"  target="_blank" rel="noopener">Diego Gamboa</a>
 theme:
   name: material
-  custom_dir: material/overrides
+  # custom_dir: material/overrides
   features:
-    - announce.dismiss
+    # - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
