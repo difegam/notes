@@ -1,0 +1,95 @@
+site_name: DGamboa Notes & Snippets
+site_url: https://difegam.github.io/dgamboa-notes/
+site_author: Diego Gamboa
+site_description: A collection of notes and snippets for personal use and sharing with the community.
+copyright: |
+  &copy; 2024 <a href="https://github.com/difegam"  target="_blank" rel="noopener">Diego Gamboa</a>
+theme:
+  name: material
+  custom_dir: material/overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  language: en
+  palette:
+    - media: (prefers-color-scheme)
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/difegam
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/diegofernandogamboagomez/?locale=en_US
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: difegam
+      repo: notes
+nav:
+  - Home: index.md
+  - About:
+    - About Me: dgamboa-notes/about-me.md
+    - About this site: dgamboa-notes/about-this-site.md
