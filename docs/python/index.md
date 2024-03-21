@@ -1,7 +1,6 @@
 ---
-title: DGamboa Notes & Snippets
-description: A simple collection of notes and snippets.
-tags: [python, linux, homeassistant, docker, self-hosting]
+hide:
+  - toc
 ---
 
 # Welcome to DGamboa Notes
@@ -21,8 +20,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
-The HTML specification is maintained by the W3C.
-
-_[HTML]: Hyper Text Markup Language
-_[W3C]: World Wide Web Consortium

@@ -2,14 +2,19 @@ site_name: DGamboa Notes & Snippets
 site_url: https://difegam.github.io/dgamboa/
 site_author: Diego Gamboa
 site_description: A collection of notes and snippets for personal use and sharing with the community.
+
+repo_url: https://github.com/difegam/notes
+repo_name: difegam/notes
+edit_uri: edit/main/docs/
+
 copyright: |
   &copy; 2024 <a href="https://github.com/difegam"  target="_blank" rel="noopener">Diego Gamboa</a>
 theme:
   name: material
   logo: assets/logo.svg
-  # custom_dir: material/overrides
+  custom_dir: material/overrides
   features:
-    # - announce.dismiss
+    - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
@@ -18,6 +23,10 @@ theme:
     - content.tooltips
     - navigation.footer
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
     - navigation.sections
     - navigation.tabs
     - navigation.top
@@ -26,26 +35,27 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+
   language: en
   palette:
-    - media: (prefers-color-scheme)
-      toggle:
-        icon: material/link
-        name: Switch to light mode
-    - media: '(prefers-color-scheme: light)'
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: deep orange
       toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    - media: '(prefers-color-scheme: dark)'
+        icon: material/weather-night
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
       scheme: slate
       primary: black
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
   font:
     text: Roboto
     code: Roboto Mono
@@ -55,17 +65,26 @@ theme:
 
 # Plugins
 plugins:
+  - social:
   - blog
+  - tags:
+      tags_file: tags.md
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enable_last_modified: true
+      type: date
 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/difegam
+      name: GitHub
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/diegofernandogamboagomez/?locale=en_US
+      name: LinkedIn
+
 markdown_extensions:
   - toc:
       permalink: true
@@ -74,6 +93,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
+  - abbr
   - pymdownx.arithmatex:
       generic: true
   - footnotes
@@ -89,8 +109,14 @@ markdown_extensions:
       repo_url_shorthand: true
       user: difegam
       repo: notes
+
 nav:
   - Home: index.md
+  - Tags: tags.md
   - About:
     - About Me: dgamboa-notes/about-me.md
     - About this site: dgamboa-notes/about-this-site.md
+  - Python:
+    - python/index.md
+    - Page-1: python/page-1.md
+    - Page-n: python/page-2.md
