@@ -84,12 +84,18 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/diegofernandogamboagomez/?locale=en_US
       name: LinkedIn
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/15230097/difegam3
+      name: StackOverflow
 
 markdown_extensions:
+
   - toc:
       permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
@@ -101,6 +107,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -112,11 +119,29 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Topics:
+    - topics/index.md
+    - Python:
+      - topics/python/index.md
+      - Libraries:
+        - Build-in:
+          - Collections: topics/python/libraries/pydantic.md
+        - External:
+          - Pydantic: topics/python/libraries/pydantic.md
+          - Arrow: topics/python/libraries/arrow.md
+      - Tools:
+        - VSCode: topics/python/tools/vscode.md
+        - Ruff: topics/python/tools/ruff.md
+    - Linux:
+      - topics/linux/index.md
+      - commands:
+        - Basic: topics/linux/commands/basic.md
+        - Advanced: topics/linux/commands/advanced.md
+    - Docker:
+      - topics/docker/index.md
+  - Articles:
+    - blog/index.md
   - Tags: tags.md
   - About:
     - About Me: dgamboa-notes/about-me.md
     - About this site: dgamboa-notes/about-this-site.md
-  - Python:
-    - python/index.md
-    - Page-1: python/page-1.md
-    - Page-n: python/page-2.md
