@@ -1,28 +1,43 @@
 ---
 title: DGamboa Notes & Snippets
-description: A simple collection of notes and snippets.
-tags: [python, linux, homeassistant, docker, self-hosting]
+description: A simple collection of notes and code snippets.
+icon: material/console-line
+hide:
+  - navigation
+  - toc
 ---
 
-# Welcome to DGamboa Notes
+<style>
+.md-content .md-typeset h1 { display: none; }
+.md-typeset h1, .md-content__button { display: none;}
+</style>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<p align="center">
+  <a href="https://fastapi.tiangolo.com"><img src="assets/images/dgamboa.png" alt="DGamboa Notes & Snippets"></a>
+</p>
+<p align="center">
+    <em>DGamboa Notes & Snippets</em>
+</p>
+---
+<p align="center">
+     <b>Welcome to the "DGamboa Notes & Snippets" repository!</b>
+</p>
 
-## Commands
+Here, I document my journey through the fascinating world of software development, Python programming, Docker containers, Linux administration, 3D printing, IoT home automation, and various other intriguing technologies.
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+As I explore these fields, I collect valuable insights, code snippets, and notes to aid my learning process and share with the community. Whether you're a seasoned developer or just starting your journey, I hope you find something useful here.
 
-## Project layout
+**Get Involved**:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Feel free to explore the contents of this repository, fork it, and contribute back! Your feedback, suggestions, and contributions are highly valued and appreciated.
 
-The HTML specification is maintained by the W3C.
+You can find the full documentation as a static website at [DGamboa Notes & Snippets][C&S].
 
-_[HTML]: Hyper Text Markup Language
-_[W3C]: World Wide Web Consortium
+Happy coding!
+
+_Diego Gamboa_
+
+<!-- urls -->
+
+[C&S]: https://difegam.github.io/notes/
+[difegam_repo]: https://github.com/difegam
