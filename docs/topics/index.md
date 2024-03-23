@@ -19,7 +19,7 @@ icon: material/order-alphabetical-descending
     [:notepad_spiral: __Notes__](python/)
     { .card }
 
-    [:fontawesome-solid-tags: __Tags__](/dgamboa/tags/#python)
+    [:fontawesome-solid-tags: __Tags__](/tags/#python)
     { .card }
 
 -   :simple-docker:{ .lg .middle } __Docker__
@@ -34,7 +34,7 @@ icon: material/order-alphabetical-descending
     [:notepad_spiral: __Notes__](docker/)
     { .card }
 
-    [:fontawesome-solid-tags: __Tags__](/dgamboa/tags/#docker)
+    [:fontawesome-solid-tags: __Tags__](/tags/#docker)
     { .card }
 
 -   :fontawesome-brands-linux:{ .lg .middle } __Linux__
@@ -48,7 +48,7 @@ icon: material/order-alphabetical-descending
     [:notepad_spiral: __Notes__](linux/)
     { .card }
 
-    [:fontawesome-solid-tags: __Tags__](/dgamboa/tags/#linux)
+    [:fontawesome-solid-tags: __Tags__](/tags/#linux)
     { .card }
 
 </div>
