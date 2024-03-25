@@ -3,7 +3,7 @@
 # Diego Gamboa's Notes and Code Snippets
 
 <p align="center">
-  <a href="https://fastapi.tiangolo.com"><img src="docs/assets/images/dgamboa.png" alt="DGamboa Notes & Snippets"></a>
+  <a href="https://difegam.github.io/notes/"><img src="docs/assets/images/dgamboa.png" alt="DGamboa Notes & Snippets"></a>
 </p>
 <p align="center">
     <em>DGamboa Notes & Snippets</em>

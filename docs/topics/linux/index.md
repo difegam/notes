@@ -1,7 +1,7 @@
 ---
 title: Linux Notes
 description: A list of linux bash scripting and command line notes notes and code snippets.
-icon: material/linux
+icon: simple/linux
 ---
 
 # Linux bash scripting and command line notes

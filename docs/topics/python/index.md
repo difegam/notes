@@ -11,7 +11,7 @@ Python is a powerful and versatile programming language that's both beginner-fri
 ## Useful Python Resources
 
 ### Books 📚
-[Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
+- ✨ [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
 
 ### Online Resources 🌐
 - :simple-youtube: [MathByte Academy](https://www.youtube.com/@mathbyteacademy)
@@ -19,6 +19,8 @@ Python is a powerful and versatile programming language that's both beginner-fri
 - :material-web: [Real Python](https://realpython.com/)
 
 ### Podcasts 🎙️
+- :simple-podcast: [Talk Python To Me](https://talkpython.fm/)
+- :simple-podcast: [Python Bytes](https://pythonbytes.fm/)
 
 
 <!-- https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search -->

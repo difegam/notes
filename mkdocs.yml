@@ -63,6 +63,9 @@ theme:
   icon:
     logo: logo
 
+extra_css:
+  - stylesheets/extra.css
+
 # Plugins
 plugins:
   - social:
@@ -137,8 +140,25 @@ nav:
       - commands:
         - Basic: topics/linux/commands/basic.md
         - Advanced: topics/linux/commands/advanced.md
-    - Docker:
+    - Docker Containerization:
       - topics/docker/index.md
+      - Docker: topics/placeholder.md # Change Me
+      - Docker Compose: topics/placeholder.md # Change Me
+    - Self-hosting:
+      - topics/self-hosting/index.md
+      - Services:
+        - Traefik: topics/placeholder.md # Change Me
+      - Resources:
+        - Cloudflare tunnel: topics/placeholder.md # Change Me
+    - 3D Printing:
+      - topics/3d-printing/index.md
+      - 3D Models: topics/placeholder.md # Change Me
+      - Ender 3: topics/placeholder.md # Change Me
+    - Home Automation:
+      - topics/home-automation/index.md
+      - Home Assistant: topics/placeholder.md # Change Me
+      - ESPHome: topics/placeholder.md # Change Me
+
   - Articles:
     - blog/index.md
   - Tags: tags.md

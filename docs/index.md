@@ -13,7 +13,7 @@ hide:
 </style>
 
 <p align="center">
-  <a href="https://fastapi.tiangolo.com"><img src="assets/images/dgamboa.png" alt="DGamboa Notes & Snippets"></a>
+  <a href="https://difegam.github.io/notes/"><img src="assets/images/dgamboa.png" alt="DGamboa Notes & Snippets"></a>
 </p>
 <p align="center">
     <em>DGamboa Notes & Snippets</em>
@@ -36,6 +36,13 @@ You can find the full documentation as a static website at [DGamboa Notes & Snip
 Happy coding!
 
 _Diego Gamboa_
+
+---
+
+<div class="grid cards center-table" markdown>
+- [ :material-invoice-text-fast: **Notes** :material-cursor-default-click: ](topics/){ .md-button .md-button--primary .center }
+- [ :material-page-next-outline: **Articles** :material-cursor-default-click: ](blog/){ .md-button .md-button--primary }
+</div>
 
 <!-- urls -->
 
