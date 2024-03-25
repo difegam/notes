@@ -143,5 +143,5 @@ nav:
     - blog/index.md
   - Tags: tags.md
   - About:
-    - About Me: dgamboa-notes/about-me.md
-    - About this site: dgamboa-notes/about-this-site.md
+    - About Me: about/me.md
+    - About this site: about/this-site.md
