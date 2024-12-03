@@ -124,6 +124,14 @@ nav:
   - Home: index.md
   - Topics:
     - topics/index.md
+    - Git:
+      - topics/git/index.md
+      - Commands:
+        - Basic: topics/git/commands/basic.md
+        - Advanced:
+          - Rebase: topics/git/commands/rebase.md
+      - Guides:
+        - Remove leaked env: docs/topics/git/remove_leaked_env.md
     - Python:
       - topics/python/index.md
       - Libraries:
